@@ -25,8 +25,7 @@ export default function Home() {
   return (
     // the page, consisting of a navbar and a main section
 
-    <div className="flex flex-col min-h-screen">
-        <Navbar />
+    <>
         <main className="flex-1">
             <div className="bg-white">
                 <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8 lg:flex lg:items-center lg:justify-between">
@@ -196,6 +195,6 @@ export default function Home() {
         </main>
 
 
-    </div>
+    </>
   )
 }
