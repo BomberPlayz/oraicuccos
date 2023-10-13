@@ -25,7 +25,7 @@ export default function Home() {
   return (
     // the page, consisting of a navbar and a main section
 
-    <div className="flex flex-col minh-screen">
+    <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-1">
             <div className="bg-white">
